@@ -20,13 +20,13 @@ import {
 import { Cormorant_Garamond, Nunito } from 'next/font/google';
 
 /* -------------------------------------------------------------------------- */
-/*  DATA ACARA — ganti nilai di bagian ini saja                               */
+/*  DATA ACARA
 /* -------------------------------------------------------------------------- */
 
 const EVENT = {
   family: 'Raslan – Supeni',
   date: '[Hari, Tanggal Bulan Tahun]',
-  time: 'Pukul 07.00 – Selesai',
+  time: '07.00 – selesai',
   placeName: 'Kediaman Keluarga Welly Sulis',
   address:
     'Jl. Semeru No.18, Kudu, Kec. Kertosono, Kabupaten Nganjuk, Jawa Timur 64315',
@@ -38,7 +38,7 @@ const EVENT = {
 const RUNDOWN: ReadonlyArray<{ time: string; title: string; desc: string }> = [
   {
     time: '07.00',
-    title: 'Kedatangan & Registrasi',
+    title: 'Kedatangan',
     desc: 'Tamu disambut hangat, bersalaman, dan menikmati hidangan pembuka.',
   },
   {
@@ -495,7 +495,7 @@ function Cover({
             variants={riseChild}
             className="mt-5 max-w-xs text-sm leading-relaxed text-[#FDF8EE]/75"
           >
-            Anda diundang ke acara Halal bi Halal Keluarga Besar {EVENT.family}.
+            Anda diundang ke acara Halal bi Halal Bani {EVENT.family}.
           </motion.p>
 
           <motion.div variants={riseChild}>
@@ -569,7 +569,7 @@ function Hero({ isOpen }: { isOpen: boolean }) {
           variants={riseChild}
           className={`${display.className} mt-3 text-[3.75rem] font-semibold leading-[0.95] text-[#FDF8EE] sm:text-7xl lg:text-8xl`}
         >
-          Halal bi <br className="sm:hidden" />Halal
+          Halalbi<br className="sm:hidden" />halal
         </motion.h1>
 
         <motion.p
@@ -585,9 +585,9 @@ function Hero({ isOpen }: { isOpen: boolean }) {
 
         <motion.p
           variants={riseChild}
-          className={`${display.className} mt-6 text-xl italic text-[#FDF8EE]/80`}
+          className={`${display.className} mt-6 text-4xl italic text-[#FDF8EE]/80`}
         >
-          Keluarga Besar
+          Bani
         </motion.p>
         <motion.p
           variants={riseChild}
