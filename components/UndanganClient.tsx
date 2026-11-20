@@ -495,7 +495,7 @@ function Cover({
             variants={riseChild}
             className="mt-5 max-w-xs text-sm leading-relaxed text-[#FDF8EE]/75"
           >
-            Anda diundang ke acara Halal bi Halal Bani {EVENT.family}.
+            Anda diundang ke acara Halalbihalal Bani {EVENT.family}.
           </motion.p>
 
           <motion.div variants={riseChild}>
